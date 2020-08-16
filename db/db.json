@@ -1,14 +1,17 @@
-{
-  "notes": [
-    {
-      "title": "Test Title",
-      "text": "Test text",
-      "id": "test_id"
-    },
-    {
-      "title": "POST test Note",
-      "text": "This is a test note push through the server",
-      "id": "1"
-    }
-  ]
-}
+[
+  {
+    "title": "Test 3",
+    "text": "Test 3",
+    "id": "57639597-5961-4ce8-a30f-6926d8b88e8f"
+  },
+  {
+    "title": "Test 32",
+    "text": "Test 32",
+    "id": "57639597-5961-4ce8-a30f-6926d8b88e8f"
+  },
+  {
+    "title": "test 1",
+    "text": "test 1",
+    "id": "327f87ac-27b0-4101-b958-8250af429155"
+  }
+]
