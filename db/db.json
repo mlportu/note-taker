@@ -1,9 +1,14 @@
 {
-    "notes":[
+  "notes": [
     {
-        "title":"Test Title",
-        "text":"Test text", 
-        "id": "test_id"
+      "title": "Test Title",
+      "text": "Test text",
+      "id": "test_id"
+    },
+    {
+      "title": "POST test Note",
+      "text": "This is a test note push through the server",
+      "id": "1"
     }
-    ]
+  ]
 }
