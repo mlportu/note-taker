@@ -1,17 +1,7 @@
 [
   {
-    "title": "Test 1",
-    "text": "Test 1",
+    "title": "My Note 1",
+    "text": "This a sample notes for testing purposes. Please feel free to add notes using the pencil button in the upper right corner and then save new notes with the save button",
     "id": "57639597-5961-4ce8-a30f-6926d8b88e8f"
-  },
-  {
-    "title": "Test 2",
-    "text": "Test 2",
-    "id": "57639597-5961-4ce8-a30f-6926d8b88e8f"
-  },
-  {
-    "title": "Test note 3",
-    "text": "Test Note 3 Text",
-    "id": "e664b44e-917e-4935-8c71-78a2914868d2"
   }
 ]

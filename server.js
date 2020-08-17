@@ -2,7 +2,8 @@ const express = require('express');
 const {notes} = require('./db/db.json');
 const fs = require('fs');
 const path = require('path');
-const short = require('short-uuid')
+const short = require('short-uuid');
+const { allowedNodeEnvironmentFlags } = require('process');
 
 const PORT = process.env.PORT || 3000;
 const app = express();
