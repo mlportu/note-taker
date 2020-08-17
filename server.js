@@ -14,14 +14,14 @@ app.use(express.json());
 app.use(express.static('public'));
 
 function createNewNote(body){
-    console.log(body);
+    // console.log(body);
     //functions main code
     const note = body;
     let currentNotes = fs.readFileSync('./db/db.json');
         currentNotes = JSON.parse(currentNotes);
-        console.log(currentNotes);
+        // console.log(currentNotes);
     currentNotes.push(note);
-    console.log(currentNotes)
+    // console.log(currentNotes)
     fs.writeFileSync(
         path.join(__dirname, './db/db.json'),
         JSON.stringify(currentNotes, null, 2)
@@ -31,7 +31,7 @@ function createNewNote(body){
 }
 
 function validateNote(note){
-    console.log(note);
+    // console.log(note);
     if(!note.title || typeof note.title !== 'string'){
        return false;
     }
@@ -50,8 +50,8 @@ app.get('/api/notes', (req, res) => {
 app.post('/api/notes', (req, res) => {
     //set id based on what the next index of the array will be
     req.body.id = short.uuid();
-    console.log(req.body.id);
-    console.log(req.body);
+    // console.log(req.body.id);
+    // console.log(req.body);
     //if any data in req.body is incorrect, send 400 error back
     if(!validateNote(req.body)){
         res.status(400).send('The note is not properly formatted');
