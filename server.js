@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const short = require('short-uuid')
 
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 3000;
 const app = express();
 
 //parse incoming string or array data
@@ -70,6 +70,6 @@ app.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, './public/notes.html'));
 });
 
-app.listen(3000, () => {
-    console.log(`API server now on port ${PORT}`);
+app.listen(PORT, () => {
+    console.log(`API server now on port ${PORT}!`);
 });
